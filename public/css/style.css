@@ -1,0 +1,139 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container{
+    flex: 1;
+}
+/* Navbar */
+.navbar{
+    height:  5rem;
+    background-color: #fff;
+}
+
+.fa-compass
+{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity:0;
+}
+
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: #fff;
+}
+
+.add-btn, .edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-img{
+    height: 30vh !important;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+    border: none !important;
+}
+
+.nav-a{
+    opacity: 1;
+}
+
+.nav-a:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+/* Map */
+#map { height: 400px;
+width:80vh }
+
+#category{
+    border-radius: 6px;
+    padding: 0.5rem;
+    opacity: 0.7;
+}
+
+#orig-img{
+    border-radius: 5px;
+}
+
+.search-btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(240, 46, 46, 0.2), 0 6px 20px 0 rgba(240, 46, 46, 0.2);
+}
