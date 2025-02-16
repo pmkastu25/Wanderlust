@@ -12,7 +12,7 @@ Wanderlust is a full-stack web application inspired by Airbnb, allowing users to
 🔗 Live Demo: https://wanderlust-mfl7.onrender.com/listings
 
 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript, Bootstrap
+Frontend: HTML, CSS, JavaScript, Embedded JavaScript, Bootstrap
 Backend: Node.js, Express.js
 Database: MongoDB (via Mongoose ORM)
 Validation: Joi
